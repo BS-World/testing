@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <title>Alfido Tech | IT Internship Opportunities</title>
+
+  <!-- Meta Tags -->
+  <meta name="keywords"
+    content="IT Internship, Information Technology Intern, Internship Opportunities, IT Intern, Internship Program, Technology Intern, IT Training, Entry-level IT, Intern Positions, Internship Experience, Alfido Tech, Internship, Alfido Tech Internship, alfido tech, alfidotech,Internship,free Internship, Alfidotech, alfido tech, Alfidotech, Alfido Tech, technology solutions, tech company, innovation, IT services, unpaid internship, free internship, Internship" />
+  <meta name="author" content="Bhanu Pratap Biswas" />
+  <meta name="description"
+    content="Explore exciting IT internship opportunities. Gain hands-on experience in information technology and kickstart your career." />
+
+  <!-- Favicon and Manifest -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Open Graph Tags for Social Media Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.alfidotech.com/" />
+  <meta property="og:title" content="Alfido Tech Internship" />
+  <meta property="og:description"
+    content="Join Alfido Tech's Internship Program and gain hands-on experience in cutting-edge technology fields. Apply now to start your tech career!" />
+  <meta property="og:image" content="https://www.alfidotech.com/logo.png" />
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .back {
+      background: url(bgi.webp) no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .back1 {
+      background-image: url(bgi.webp);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body class="sub_page">
+  <!-- Header Section -->
+  <div class="hero_area">
+    <header class="header_section back1">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <img src="https://www.alfidotech.com/logo02.png" width="270" height="100" alt="Logo" class="responsive">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="internship.html"> Internship</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Task.html">Task</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Submission.html">Submission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Verify.html"> Verify Certificate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Blog.html"> Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <!-- <div class="quote_btn-container">
+              <form class="form-inline">
+                <button class="btn   nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call : +91 9977465250
+                </span>
+              </a>
+            </div> -->
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <!-- Registration Form -->
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form name="submit-to-google-sheet" id="registrationForm" method="POST" action="database.php">
+      <label for="fullName">Full Name</label>
+      <input type="text" class="form-control" id="fullName" name="fullName" required><br>
+
+      <label for="email">Email id</label>
+      <input type="email" class="form-control" id="email" name="email" required><br>
+
+      <label>Gender :-</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label><br><br>
+
+      <label for="whatsapp">WhatsApp Number</label>
+      <input type="tel" class="form-control" id="whatsapp" name="whatsapp" required><br>
+
+      <label>Select Internship Domain</label>
+      <select name="internshipDomain" id="internshipDomain" class="form-control" required>
+        <option value="">Select Your Domain...</option>
+        <option value="Web Development">Web Development</option>
+        <option value="UX/UI Design">UX/UI Design</option>
+        <option value="React.JS">React.JS</option>
+        <option value="Python Development">Python Development</option>
+        <option value="Java Development">Java Development</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Data Analytics">Data Analytics</option>
+        <option value="Android Development">Android Development</option>
+      </select><br>
+
+      <label for="collegeName">College Name</label>
+      <input type="text" class="form-control" id="collegeName" name="collegeName" required><br>
+
+      <label for="qualification">Qualification</label>
+      <input type="text" class="form-control" id="qualification" name="qualification" required><br>
+
+      <label for="passingYear">Passing Year</label>
+      <input type="text" class="form-control" id="passingYear" name="passingYear" required><br>
+
+      <div>
+        <input type="submit" class="btn btn-primary w-40 py-3" value="Submit">
+        <input type="reset" class="btn btn-primary w-40 py-3" value="Reset">
+      </div><br>
+    </form>
+  </div>
+
+  <!-- Info Section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h4>Address</h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>Location</span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>Call +91 1234567890</span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>demo@gmail.com</span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_link_box">
+            <h4>Links</h4>
+            <div class="info_links">
+              <a href="index.html"><img src="images/nav-bullet.png" alt="">Home</a>
+              <a href="about.html"><img src="images/nav-bullet.png" alt="">About</a>
+              <a href="service.html"><img src="images/nav-bullet.png" alt="">Services</a>
+              <a href="price.html"><img src="images/nav-bullet.png" alt="">Pricing</a>
+              <a href="contact.html"><img src="images/nav-bullet.png" alt="">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container-fluid">
+      <p>&copy; <span id="displayYear"></span> All Rights Reserved by Alfido Tech</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript to Dynamically Display Current Year -->
+  <script>
+    document.getElementById("displayYear").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
